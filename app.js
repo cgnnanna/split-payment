@@ -13,7 +13,7 @@ app.use((req, res) => {
        });
 })
 
-let port = process.env.SERVER_PORT || 8000;
+let port = process.env.PORT || 8000;
 app.listen(port, () => { console.log(`Server started on port ${port}`); })
 
 
